@@ -1,0 +1,14 @@
+{
+  "name": "input-currency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "author": "Raz mantzur",
+  "dependencies": {
+    "grunt": "~1.0.0",
+    "load-grunt-tasks": "~3.5.2",
+    "grunt-contrib-connect": "~1.0.2",
+    "time-grunt": "~1.4.0",
+    "bower": "~1.4.1"    
+  }
+}
