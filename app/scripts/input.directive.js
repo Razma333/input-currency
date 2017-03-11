@@ -17,7 +17,7 @@
                     scope.input = ngModel;
 debugger;
                     scope.decimalNumbers = angular.isDefined(scope.decimalNumbers) ? scope.decimalNumbers : 0;
-                    scope.disableCurrencySymbol = angular.isDefined(scope.disableCurrencySymbol) ? scope.disableCurrencySymbol : true;
+                    scope.disableCurrencySymbol = angular.isDefined(scope.disableCurrencySymbol) ? scope.disableCurrencySymbol : false;
                     scope.currencySymbol = angular.isDefined(scope.currencySymbol) ? scope.currencySymbol : '$';
                     var timeToWait = undefined;
 

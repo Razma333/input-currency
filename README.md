@@ -13,11 +13,11 @@ but to keep the user's input as Number for the model and for the Backend.
 
 Directive: `input-currency`
 
-`decimal-numbers` = How many numbers wolud you like to have after the decimal point
+`decimal-numbers` = How many numbers wolud you like to have after the decimal point - default = 0.
 
-`disable-currency-symbol` = Would you like to have a currency symbol
+`disable-currency-symbol` = Would you like to have a currency symbol - default = false.
 
-`currency-symbol` = The currency symbol you'll like to use
+`currency-symbol` = The currency symbol you'll like to use - default = $.
 
 ```
 <input type="text" input-currency decimal-numbers="2" currency-symbol="'$'" disable-currency-symbol="false" ng-model="input">
