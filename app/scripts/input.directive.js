@@ -15,7 +15,6 @@
                 link: function (scope, element, attrs, ngModel) {
                     if (!ngModel) return;
                     scope.input = ngModel;
-debugger;
                     scope.decimalNumbers = angular.isDefined(scope.decimalNumbers) ? scope.decimalNumbers : 0;
                     scope.disableCurrencySymbol = angular.isDefined(scope.disableCurrencySymbol) ? scope.disableCurrencySymbol : false;
                     scope.currencySymbol = angular.isDefined(scope.currencySymbol) ? scope.currencySymbol : '$';

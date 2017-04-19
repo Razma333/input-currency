@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.html",
   "author": "Raz mantzur",
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "dependencies": {
     "grunt": "~1.0.0",
     "load-grunt-tasks": "~3.5.2",
